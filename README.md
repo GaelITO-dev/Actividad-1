@@ -16,33 +16,43 @@ Puedes ver todos los ejercicios en línea aquí:
 
 
 | 2 | [ejercicio2.html](ejercicio2.html) | 
-![Uploading Captura de pantalla 2026-09-14 221334.png…]()
+<img width="601" height="321" alt="Captura de pantalla 2026-09-14 221521" src="https://github.com/user-attachments/assets/7eda0935-9ce6-4ab1-b513-2ce21eac0f5a" />
 
-| 3 | [ejercicio3.html](ejercicio3.html) | Enlaces (hipervínculos) | Enlaces externos abriendo en nueva pestaña (`target="_blank"`) y en la misma pestaña (`target="_self"`), además de un enlace interno a otro ejercicio. |
-| 4 | [ejercicio4.html](ejercicio4.html) | Imágenes | Inserción de una imagen con `<img>`, uso del atributo `alt` y ajuste de tamaño con `width`. |
-| 5 | [ejercicio5.html](ejercicio5.html) | Integración de texto, imagen y enlaces | Mini página de presentación personal que combina texto con formato, una imagen y un enlace externo, integrando lo aprendido en los ejercicios anteriores. |
-| 6 | [ejercicio6.html](ejercicio6.html) | Etiquetas semánticas | Uso de `<header>`, `<section>` y `<footer>` para estructurar el contenido de una página de forma semántica. |
-| 7 | [ejercicio7.html](ejercicio7.html) | Listas ordenadas y desordenadas | Receta de cocina que combina una lista desordenada (ingredientes, con una sublista anidada) y una lista ordenada (pasos de preparación). |
-| 8 | [ejercicio8.html](ejercicio8.html) | Tablas | Horario de clases construido con `<table>`, usando `rowspan` y `colspan` para combinar celdas, y estilos personalizados en `css/ejercicio8.css`. |
-| 9 | [ejercicio9.html](ejercicio9.html) | Formularios (diseño) | Formulario de contacto con campos de nombre, correo, teléfono y mensaje, estilizado con `css/ejercicio9.css` y tipografía de Google Fonts. |
-| 10 | [ejercicio10.html](ejercicio10.html) | Formularios + JavaScript | Calculadora que convierte grados Celsius a Fahrenheit, usando un formulario y lógica en `js/ejercicio10.js` para procesar la conversión sin recargar la página. |
 
-> Los ejercicios 11 al 18 se irán agregando a esta tabla conforme se suban al repositorio.
+| 3 | [ejercicio3.html](ejercicio3.html) |
+<img width="719" height="292" alt="image" src="https://github.com/user-attachments/assets/d669e2e4-84e1-4460-a41e-77043733b59c" />
 
-## 🗂️ Estructura del proyecto
 
-```
-Actividad1/
-├── index.html          # Menú principal con enlaces a cada ejercicio
-├── ejercicio1.html
-├── ejercicio2.html
-├── ...
-├── css/                # Hojas de estilo de los ejercicios que las requieren
-├── js/                 # Scripts de los ejercicios que requieren JavaScript
-└── img/                # Imágenes usadas en los ejercicios
-```
+| 4 | [ejercicio4.html](ejercicio4.html) | 
+<img width="620" height="493" alt="image" src="https://github.com/user-attachments/assets/04cf69d7-d0c9-408c-ab6a-9b253968b68f" />
 
-## 🚀 Cómo verlo localmente
+
+| 5 | [ejercicio5.html](ejercicio5.html) |
+<img width="610" height="591" alt="image" src="https://github.com/user-attachments/assets/f52f3f07-d4f8-465b-b6c6-214dd5113c84" />
+
+
+| 6 | [ejercicio6.html](ejercicio6.html) | 
+<img width="615" height="304" alt="image" src="https://github.com/user-attachments/assets/0aeef95a-af53-434f-a8ed-fed0b5a37ab4" />
+
+
+| 7 | [ejercicio7.html](ejercicio7.html) | 
+<img width="608" height="550" alt="image" src="https://github.com/user-attachments/assets/72c43e44-ef13-4654-9f07-0ec223574e2f" />
+
+
+| 8 | [ejercicio8.html](ejercicio8.html) | 
+<img width="954" height="807" alt="image" src="https://github.com/user-attachments/assets/ebed9682-913d-4617-b04b-28deb8590aab" />
+
+| 9 | [ejercicio9.html](ejercicio9.html) |
+<img width="957" height="908" alt="image" src="https://github.com/user-attachments/assets/a7f156ab-2825-424e-b882-7e8a7cd6af52" />
+
+
+| 10 | [ejercicio10.html](ejercicio10.html) | 
+<img width="958" height="378" alt="image" src="https://github.com/user-attachments/assets/56cddd4a-4852-4386-8ed3-bf038592d27a" />
+
+
+
+
+## Cómo verlo localmente
 
 1. Clona este repositorio.
 2. Ábrelo con [XAMPP](https://www.apachefriends.org/) colocándolo dentro de `htdocs`, o simplemente abre `index.html` en tu navegador.
@@ -51,10 +61,9 @@ Actividad1/
 ## 🛠️ Tecnologías utilizadas
 
 - HTML5
-- CSS3
+- CSS
 - JavaScript
-- Bootstrap
 
-## ✍️ Autor
+## Autor
 
 Gael ([@GaelITO-dev](https://github.com/GaelITO-dev))
