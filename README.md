@@ -11,9 +11,13 @@ Puedes ver todos los ejercicios en línea aquí:
 
 
 ### | 1 | [ejercicio1.html](ejercicio1.html) | 
+<img width="597" height="170" alt="Captura de pantalla 2026-09-14 221334" src="https://github.com/user-attachments/assets/29221631-b72f-4365-9040-cd86e28b7063" />
 
 
-| 2 | [ejercicio2.html](ejercicio2.html) | Formato de texto | Uso de etiquetas de énfasis como `<strong>` y `<em>` para resaltar y dar énfasis a partes del texto. |
+
+| 2 | [ejercicio2.html](ejercicio2.html) | 
+![Uploading Captura de pantalla 2026-09-14 221334.png…]()
+
 | 3 | [ejercicio3.html](ejercicio3.html) | Enlaces (hipervínculos) | Enlaces externos abriendo en nueva pestaña (`target="_blank"`) y en la misma pestaña (`target="_self"`), además de un enlace interno a otro ejercicio. |
 | 4 | [ejercicio4.html](ejercicio4.html) | Imágenes | Inserción de una imagen con `<img>`, uso del atributo `alt` y ajuste de tamaño con `width`. |
 | 5 | [ejercicio5.html](ejercicio5.html) | Integración de texto, imagen y enlaces | Mini página de presentación personal que combina texto con formato, una imagen y un enlace externo, integrando lo aprendido en los ejercicios anteriores. |
