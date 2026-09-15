@@ -1,0 +1,137 @@
+/*
+    1. VARIABLE CSS (Custom Properties)
+    -Propósito: Centralizar colores, fuentes y tamaños para facil mantenimiento.
+    -Beneficios: Cambios globales desde un solo lugar.
+*/
+:root{
+    --color-primario: #927dc1;
+    --color-secundario: #4CC9F0;
+    --color-fondo: #F8F9FA;
+    --color-texto: #2B2C42;
+    --color-borde: #E9ECEF;
+}
+
+/*
+    2. RESET BÁSICO
+    -Propósito: Eliminar margenes y paddings predeterminados del navegador.
+    -Importanci: Evita inconsistencias entre navegadores.
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    3. ESTILOS GENERALES
+    -Tipografia: 'Inter' es una fuente moderna y legible.
+    -Fondo: Color claro para contraste con el formulario.
+ */
+ body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    padding: 40px 20px;
+ }
+
+ /*
+    4. CONTENEDOR PRINCIPAL
+    - max-width: Limita el ancho en pantallas grandes.
+    - margin: 0 auto; Centra el contenedor horizontalmente.
+    -box-shadow: Efecto de elevacion sutil.
+*/
+.contenedor-formulario{
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/*
+5. ESTILOS DE TIPOGRAFIA
+    -Jerarquia visual: h1 > subtitulo > labels > inputs.
+    -font-weight: Negritas para titulos y labels.
+*/
+h1{
+    font-size: 28px;
+    color: var(--color-primario);
+    margin-bottom: 8px;
+}
+
+.subtitulo{
+    color: #6C757D;
+    margin-bottom: 30px;
+}
+
+/*
+    6. GRUPOS DE FORMULARIO
+    -margin-botton: Espaciado vertical entre grupos.
+    - display: block en labels para ocupar toda la lista.
+    */
+.grupo-formulario{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500; /* Semi-negrita */
+    font-size: 14px;
+}
+
+/*
+    7. INPUTS Y TEXTAREA
+    -transition: Efecto suave al hacer focus.
+    - :focus-state: Feddback visual al interactuar.
+    */
+input, textarea{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    transition: all 0.3s; /* Animación suave */
+}
+
+input:focus, textarea:focus{
+    border-color: var(--color-secundario);
+    outline: none; /* Elimina el outline predeterminado*/
+    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2); /* Sombra interios (efecto glow)*/
+}
+
+/*
+    8. DISPOSICION EN COLUMNAS (GRUPO DOBLE)
+    - grid-template-columns: Divide en 2 columnas iguales.
+    - gap: Espacio entre columnas.
+*/
+.grupo-doble{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/*
+    9. BOTON DE ENVIO
+    - cursor: pointer; Cambia el cursor al pasar sobre el boton.
+    - flexbox: Centra texto + ícono.
+    - hover-state: Efecto al interactuar.
+*/
+.boton-enviar{
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-enviar:hover{
+    background-color: #2a0880; /* Color oscuro al pasar el mouse*/
+}
