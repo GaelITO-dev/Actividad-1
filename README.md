@@ -73,6 +73,21 @@ ejemplo: <form action="/enviar" method="post">
 <img width="958" height="378" alt="image" src="https://github.com/user-attachments/assets/56cddd4a-4852-4386-8ed3-bf038592d27a" />
 se hace uso de una referencia a un js con la etiqueta script y se agrega la etiqueta button para llamar el evento definido en el archivo javascript
 
+### | 11 | [ejercicio11.html](ejercicio11.html) [JS](js/ejercicio10.js) |
+
+### | 12 | [ejercicio12.html](ejercicio12.html) [JS](js/ejercicio12.js) |
+
+### | 13 | [ejercicio13.html](ejercicio13.html) [JS](js/ejercicio13.js) |
+
+### | 14 | [ejercicio14.html](ejercicio14.html) [JS](js/ejercicio14.js) |
+
+### | 15 | [ejercicio15.html](ejercicio15.html) [JS](js/ejercicio15.js) |
+
+### | 16 | [ejercicio16.html](ejercicio61.html) [JS](js/ejercicio16.js) |
+
+### | 17 | [ejercicio17.html](ejercicio17.html) [JS](js/ejercicio17.js) [CSS](css/ejercicio17.css) |
+
+### | 18 | [ejercicio18.html](ejercicio18.html) [JS](js/app.js) |
 
 
 
