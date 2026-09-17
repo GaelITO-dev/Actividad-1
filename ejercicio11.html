@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kilometros a Millas</title>
+        <script src="js/ejercicio11.js" defer></script>
+    </head>
+    <body>
+        <main class="contenedor-formulario">
+            <h1>Calculadora Kilometros a Millas</h1>
+            <p class="subtitulo">Convierte Kilometros (km) a Millas(m)</p>
+
+            <form class="formulario" id="formulario-conversor">
+                <div class="grupo-formulario">
+                    <label for="kilometros">Temperatura en Celsius</label>
+                    <input type="text" id="kilometros" name="kilometros" inputmode="decimal" placeholder="25" novalidate>
+                </div>
+
+                <button type="submit" class="boton-convertir">Convertir</button>
+
+                <div class="grupo-formulario">
+                    <label for="millas">Resultado en Millas</label>
+                    <input type="text" id="millas" name="millas" readonly aria-describedby="mensaje">
+                </div>
+
+                <p class="mensaje" id="mensaje" role="status" aria-live="polite"></p>
+            </form>
+        </main>
+    </body>
+</html>

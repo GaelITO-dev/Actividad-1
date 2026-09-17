@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Numeros en Arreglo</title>
+        <script src="js/ejercicio14.js" defer></script>
+    </head>
+    <body>
+        <main class="contenedor-formulario">
+            <h1>Análisis de Números</h1>
+            <p class="subtitulo">Ingresa una lista de números separados por comas</p>
+
+            <form class="formulario" id="formulario-arreglos">
+                <div class="grupo-formulario">
+                    <label for="numeros">Números (separados por comas)</label>
+                    <input type="text" id="numeros" name="numeros" placeholder="Ej: 10,20,30,40,50" novalidate>
+                </div>
+
+                <button type="submit" class="boton-convertir">Calcular</button>
+
+                <div class="grupo-formulario">
+                    <label for="mayor">Número Mayor</label>
+                    <input type="text" id="mayor" name="mayor" readonly aria-describedby="mensaje">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="menor">Número Menor</label>
+                    <input type="text" id="menor" name="menor" readonly aria-describedby="mensaje">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="promedio">Promedio</label>
+                    <input type="text" id="promedio" name="promedio" readonly aria-describedby="mensaje">
+                </div>
+
+                <p class="mensaje" id="mensaje" role="status" aria-live="polite"></p>
+            </form>
+        </main>
+    </body>
+</html>

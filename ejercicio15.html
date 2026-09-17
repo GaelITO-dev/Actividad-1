@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro y Estadísticas de Estudiantes</title>
+        <script src="js/ejercicio15.js" defer></script> 
+    </head>
+    <body>
+        <main class="contenedor-formulario">
+            <h1>Registro de Calificaciones</h1>
+            <p class="subtitulo">Ingresa el nombre y calificación de los estudiantes.</p>
+
+            <form class="formulario" id="formulario-estudiantes">
+                
+                <div class="grupo-formulario">
+                    <label for="nombre">Nombre del estudiante</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="calificacion">Calificación</label>
+                    <input type="text" id="calificacion" name="calificacion" inputmode="numeric" placeholder="Ej: 85">
+                </div>
+
+                <button type="button" class="boton-secundario" id="btn-agregar">Agregar estudiante</button>
+                <button type="button" class="boton-convertir" id="btn-calcular">Calcular</button>
+
+                <div class="grupo-formulario">
+                    <label for="promedio">Calificación promedio</label>
+                    <input type="text" id="promedio" name="promedio" readonly aria-describedby="mensaje">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="mejor-estudiante">Estudiante con calificación más alta</label>
+                    <input type="text" id="mejor-estudiante" name="mejor-estudiante" readonly aria-describedby="mensaje">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="peor-estudiante">Estudiante con calificación más baja</label>
+                    <input type="text" id="peor-estudiante" name="peor-estudiante" readonly aria-describedby="mensaje">
+                </div>
+
+                <p class="mensaje" id="mensaje" role="status" aria-live="polite"></p>
+            </form>
+        </main>
+    </body>
+</html>

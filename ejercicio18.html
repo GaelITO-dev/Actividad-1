@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manipulacion del DOM</title>
+        <style>
+            #lista{
+                list-style-type: none;
+                padding: 0;
+            }
+            .elemento{
+                display: flex;
+                justify-content: space-between;
+                padding: 8px;
+                background-color: #f0f0f0;
+                margin-bottom: 5px;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Agregar y Eliminar Elementos</h1>
+
+        <input type="text" id="nuevoElemento" placeholder="Escribe algo">
+        <button id="agregarBtn">Agregar</button>
+
+        <ul id="lista"></ul>
+
+        <script src="js/app.js"></script>
+
+    </body>
+</html>

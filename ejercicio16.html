@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora con flecha</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="js/ejercicio16.js" defer></script> 
+    </head>
+    <body>
+        <main class="contenedor-formulario">
+            <h1>Calculadora Básica</h1>
+            <p class="subtitulo">Ingresa dos números para realizar operaciones aritmeticas</p>
+
+            <form class="formulario" id="formulario-calculadora">
+                
+                <div class="grupo-formulario">
+                    <label for="numero1">Número 1</label>
+                    <input type="text" id="numero1" name="numero1" inputmode="decimal" placeholder="Ej: 15">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="numero2">Número 2</label>
+                    <input type="text" id="numero2" name="numero2" inputmode="decimal" placeholder="Ej: 5">
+                </div>
+
+                <div class="grupo-formulario" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button type="button" class="boton-secundario" id="btn-sumar">Sumar (+)</button>
+                    <button type="button" class="boton-secundario" id="btn-restar">Restar (-)</button>
+                    <button type="button" class="boton-secundario" id="btn-multiplicar">Multiplicar (*)</button>
+                    <button type="button" class="boton-secundario" id="btn-dividir">Dividir (/)</button>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="resultado">Resultado</label>
+                    <input type="text" id="resultado" name="resultado" readonly>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

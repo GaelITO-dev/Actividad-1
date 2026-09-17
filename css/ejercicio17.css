@@ -1,0 +1,137 @@
+/* ==========================================
+   1. RESET Y FUENTES GLOBALES
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    /* Un fondo gris muy claro para que la tarjeta blanca resalte */
+    background-color: #f4f7f6; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* ==========================================
+   2. LA TARJETA PRINCIPAL (El contenedor)
+   ========================================== */
+.contenedor-formulario {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px; /* Ancho máximo para que no se estire en monitores grandes */
+    padding: 30px;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08); /* Sombra suave y profesional */
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+}
+
+/* ==========================================
+   3. EL FORMULARIO Y SUS INPUTS
+   ========================================== */
+.grupo-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espacio entre el label y el input */
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #34495e;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border: 2px solid #e0e6ed;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Cuando el usuario hace clic en el input */
+input[type="text"]:focus {
+    border-color: #3498db; /* Borde azul al escribir */
+}
+
+/* ==========================================
+   4. BOTONES (Efectos Hover)
+   ========================================== */
+.boton-convertir {
+    background-color: #3498db; /* Azul vibrante */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+/* Efecto al pasar el mouse */
+.boton-convertir:hover {
+    background-color: #2980b9; 
+}
+
+/* Efecto al hacer clic */
+.boton-convertir:active {
+    transform: scale(0.98); /* Se encoge un poquito al presionarlo */
+}
+
+/* ==========================================
+   5. DISEÑO DE LA LISTA DE TAREAS (JS)
+   ========================================== */
+.item-tarea {
+    background-color: #f8f9fa; /* Fondo gris súper claro para cada tarea */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex; /* Para poner texto a la izq y botón a la der */
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    transition: transform 0.2s;
+}
+
+/* La tarea se levanta un poquito al pasar el mouse */
+.item-tarea:hover {
+    transform: translateY(-2px); 
+}
+
+.btn-eliminar {
+    background-color: #e74c3c; /* Rojo de peligro */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.85rem;
+    transition: background-color 0.3s;
+}
+
+.btn-eliminar:hover {
+    background-color: #c0392b; /* Rojo más oscuro */
+}
