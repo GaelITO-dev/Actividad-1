@@ -74,20 +74,36 @@ ejemplo: <form action="/enviar" method="post">
 se hace uso de una referencia a un js con la etiqueta script y se agrega la etiqueta button para llamar el evento definido en el archivo javascript
 
 ### | 11 | [ejercicio11.html](ejercicio11.html) [JS](js/ejercicio10.js) |
+<img width="603" height="331" alt="image" src="https://github.com/user-attachments/assets/02b9b999-b9d0-4055-9b1f-b9a38268843b" />
+
 
 ### | 12 | [ejercicio12.html](ejercicio12.html) [JS](js/ejercicio12.js) |
+<img width="603" height="307" alt="image" src="https://github.com/user-attachments/assets/ac42519e-6526-4f46-b040-e9fd8e816313" />
+
 
 ### | 13 | [ejercicio13.html](ejercicio13.html) [JS](js/ejercicio13.js) |
+<img width="595" height="301" alt="image" src="https://github.com/user-attachments/assets/3b73477c-afa8-4d81-aa17-a59608c70a92" />
+
 
 ### | 14 | [ejercicio14.html](ejercicio14.html) [JS](js/ejercicio14.js) |
+<img width="608" height="367" alt="image" src="https://github.com/user-attachments/assets/602e4b2b-aab3-4655-aaee-190694a99a33" />
+
 
 ### | 15 | [ejercicio15.html](ejercicio15.html) [JS](js/ejercicio15.js) |
+<img width="620" height="391" alt="image" src="https://github.com/user-attachments/assets/a8599267-29d5-4128-a9f6-5f0614075791" />
+
 
 ### | 16 | [ejercicio16.html](ejercicio61.html) [JS](js/ejercicio16.js) |
+<img width="599" height="332" alt="image" src="https://github.com/user-attachments/assets/3d24499f-caf0-474e-8bf6-88f971df37c9" />
+
 
 ### | 17 | [ejercicio17.html](ejercicio17.html) [JS](js/ejercicio17.js) [CSS](css/ejercicio17.css) |
+<img width="962" height="906" alt="image" src="https://github.com/user-attachments/assets/4843ab54-7810-4d6c-9be0-316fb0422440" />
+
 
 ### | 18 | [ejercicio18.html](ejercicio18.html) [JS](js/app.js) |
+<img width="627" height="263" alt="image" src="https://github.com/user-attachments/assets/81f0f90e-a485-40b5-b4f2-f1dcbe10504f" />
+
 
 
 
